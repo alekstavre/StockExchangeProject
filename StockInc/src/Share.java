@@ -35,7 +35,7 @@ public class Share {
 	
 	@Override
 	public String toString() {
-		return "share:" + this.name+ " nuber of shares:"+ this.number+ " value:" +this.value;
+		return "share:" + this.name+ " number of shares:"+ this.number+ " price=" +this.value+"$";
 	}
 
 }

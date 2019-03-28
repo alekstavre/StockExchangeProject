@@ -16,8 +16,8 @@ public class StockExchange extends Company{
 		System.out.println(intel);
 		System.out.println(apple);
 		
-		TradeComp.sellShares(22, 50);
-		TradeComp.sellShares(20, 30);
+		TradeComp.sellShares(intel);
+		TradeComp.sellShares(apple);
 		
 		System.out.println((portfolio).size());
 	
